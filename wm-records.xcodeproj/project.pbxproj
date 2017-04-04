@@ -4861,6 +4861,70 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
+			<key>47D98BAEE221AA400219DAD2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxFboBlur.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxFboBlur/src/ofxFboBlur.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>8C2732A60654DCAB78485FFD</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>717FFECA4DDACD613D27B6AD</string>
+					<string>47D98BAEE221AA400219DAD2</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>7CB5F0197C6C987F1A872F06</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>8C2732A60654DCAB78485FFD</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxFboBlur</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>3800542E2A9FC9F9F4D07001</key>
+			<dict>
+				<key>fileRef</key>
+				<string>717FFECA4DDACD613D27B6AD</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>717FFECA4DDACD613D27B6AD</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxFboBlur.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxFboBlur/src/ofxFboBlur.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>C31FEF62BD7316AF85A831B5</key>
 			<dict>
 				<key>explicitFileType</key>
@@ -5521,6 +5585,398 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
+			<key>F21017D5316CB2B55CD68641</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBeat.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxBeat/src/ofxBeat.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>C098DBE008A1B5C6D12ABFFD</key>
+			<dict>
+				<key>fileRef</key>
+				<string>C6684F2AB3BF96EE746EF6DA</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>C6684F2AB3BF96EE746EF6DA</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBeat.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxBeat/src/ofxBeat.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>4FA7C66BC39A49BCFA509386</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>fft.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxBeat/src/fft.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>2593B7743D30DF6DEB591433</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>B85440CFD1540D81C05B85CB</string>
+					<string>4FA7C66BC39A49BCFA509386</string>
+					<string>C6684F2AB3BF96EE746EF6DA</string>
+					<string>F21017D5316CB2B55CD68641</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>5B3BFE89BB3B98E8FC2F783F</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>2593B7743D30DF6DEB591433</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxBeat</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>A86D7323CE1A9450906A91DD</key>
+			<dict>
+				<key>fileRef</key>
+				<string>B85440CFD1540D81C05B85CB</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>B85440CFD1540D81C05B85CB</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>fft.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxBeat/src/fft.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D16E15C2AE7131E2AAAF1014</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>scenes.h</string>
+				<key>path</key>
+				<string>src/scenes/scenes.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>EFBE983E657E4A3C03C67512</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>LogoScene.h</string>
+				<key>path</key>
+				<string>src/scenes/logo/LogoScene.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>748D5F5BFE755618A79E9C3A</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>92676D8A5D45D5273D2281F5</string>
+					<string>EFBE983E657E4A3C03C67512</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>logo</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>CB80552BDC996341CF1C5D66</key>
+			<dict>
+				<key>fileRef</key>
+				<string>92676D8A5D45D5273D2281F5</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>92676D8A5D45D5273D2281F5</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>LogoScene.cpp</string>
+				<key>path</key>
+				<string>src/scenes/logo/LogoScene.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>20B81CB785A997F2BB3984F9</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>KinectScene.h</string>
+				<key>path</key>
+				<string>src/scenes/kinect/KinectScene.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>36C73A5CB01F24A0E71166D4</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>161350D8C9D4B98EB638063D</string>
+					<string>20B81CB785A997F2BB3984F9</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>kinect</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E1FB42050AE77161ECA62DEC</key>
+			<dict>
+				<key>fileRef</key>
+				<string>161350D8C9D4B98EB638063D</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>161350D8C9D4B98EB638063D</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>KinectScene.cpp</string>
+				<key>path</key>
+				<string>src/scenes/kinect/KinectScene.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>36BF1C038F5AEC4D85473FE4</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>A4992B1CF85014B6EDCB5E21</string>
+					<string>36C73A5CB01F24A0E71166D4</string>
+					<string>748D5F5BFE755618A79E9C3A</string>
+					<string>D16E15C2AE7131E2AAAF1014</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>scenes</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>A4992B1CF85014B6EDCB5E21</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>IScene.h</string>
+				<key>path</key>
+				<string>src/scenes/IScene.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>827F0C7B3937057CA83C3DBD</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ParticleEmitter.h</string>
+				<key>path</key>
+				<string>src/particles/ParticleEmitter.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>9E85963B96FDD181D3F82231</key>
+			<dict>
+				<key>fileRef</key>
+				<string>2DC6ADBFBF3587A94700E8FA</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>2DC6ADBFBF3587A94700E8FA</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ParticleEmitter.cpp</string>
+				<key>path</key>
+				<string>src/particles/ParticleEmitter.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F8D268412F44120DC8CB51E0</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Particle.h</string>
+				<key>path</key>
+				<string>src/particles/Particle.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>C865A92F04BD6A5EB82E5833</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>ADA6803DAD5EFE0C3B74877E</string>
+					<string>F8D268412F44120DC8CB51E0</string>
+					<string>2DC6ADBFBF3587A94700E8FA</string>
+					<string>827F0C7B3937057CA83C3DBD</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>particles</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>16848967F0CDBAD1A617BE6B</key>
+			<dict>
+				<key>fileRef</key>
+				<string>ADA6803DAD5EFE0C3B74877E</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>ADA6803DAD5EFE0C3B74877E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Particle.cpp</string>
+				<key>path</key>
+				<string>src/particles/Particle.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>159C916D9F050EDD628A934B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>AudioManager.h</string>
+				<key>path</key>
+				<string>src/audio/AudioManager.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>CBF1809FEEB7DDDC00AAEFE0</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>52FAEA6BB6DC4FB43143CF3E</string>
+					<string>159C916D9F050EDD628A934B</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>audio</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>47CBF103A8EA6F0AF50DE9EC</key>
+			<dict>
+				<key>fileRef</key>
+				<string>52FAEA6BB6DC4FB43143CF3E</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>52FAEA6BB6DC4FB43143CF3E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>AudioManager.cpp</string>
+				<key>path</key>
+				<string>src/audio/AudioManager.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>6948EE371B920CB800B5AC1A</key>
 			<dict>
 				<key>children</key>
@@ -5657,11 +6113,19 @@ fi
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>src/audio</string>
+						<string>src/particles</string>
+						<string>src/scenes</string>
+						<string>src/scenes/kinect</string>
+						<string>src/scenes/logo</string>
+						<string>../../../addons/ofxBeat/src</string>
 						<string>../../../addons/ofxFX/src</string>
 						<string>../../../addons/ofxFX/src/composers</string>
 						<string>../../../addons/ofxFX/src/filters</string>
 						<string>../../../addons/ofxFX/src/generative</string>
 						<string>../../../addons/ofxFX/src/operations</string>
+						<string>../../../addons/ofxFboBlur/src</string>
 						<string>../../../addons/ofxFluid/src</string>
 						<string>../../../addons/ofxGui/src</string>
 						<string>../../../addons/ofxKinect/libs</string>
@@ -5772,11 +6236,19 @@ fi
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>src/audio</string>
+						<string>src/particles</string>
+						<string>src/scenes</string>
+						<string>src/scenes/kinect</string>
+						<string>src/scenes/logo</string>
+						<string>../../../addons/ofxBeat/src</string>
 						<string>../../../addons/ofxFX/src</string>
 						<string>../../../addons/ofxFX/src/composers</string>
 						<string>../../../addons/ofxFX/src/filters</string>
 						<string>../../../addons/ofxFX/src/generative</string>
 						<string>../../../addons/ofxFX/src/operations</string>
+						<string>../../../addons/ofxFboBlur/src</string>
 						<string>../../../addons/ofxFluid/src</string>
 						<string>../../../addons/ofxGui/src</string>
 						<string>../../../addons/ofxKinect/libs</string>
@@ -5861,7 +6333,9 @@ fi
 			<dict>
 				<key>children</key>
 				<array>
+					<string>5B3BFE89BB3B98E8FC2F783F</string>
 					<string>CABF1A23B637491112B10A00</string>
+					<string>7CB5F0197C6C987F1A872F06</string>
 					<string>AC589A74CE1B327ED3EED72A</string>
 					<string>480A780D8D0308AE4A368801</string>
 					<string>9683228C705CA3FF4F2EA945</string>
@@ -6026,11 +6500,19 @@ fi
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>src/audio</string>
+						<string>src/particles</string>
+						<string>src/scenes</string>
+						<string>src/scenes/kinect</string>
+						<string>src/scenes/logo</string>
+						<string>../../../addons/ofxBeat/src</string>
 						<string>../../../addons/ofxFX/src</string>
 						<string>../../../addons/ofxFX/src/composers</string>
 						<string>../../../addons/ofxFX/src/filters</string>
 						<string>../../../addons/ofxFX/src/generative</string>
 						<string>../../../addons/ofxFX/src/operations</string>
+						<string>../../../addons/ofxFboBlur/src</string>
 						<string>../../../addons/ofxFluid/src</string>
 						<string>../../../addons/ofxGui/src</string>
 						<string>../../../addons/ofxKinect/libs</string>
@@ -6139,11 +6621,19 @@ fi
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>src/audio</string>
+						<string>src/particles</string>
+						<string>src/scenes</string>
+						<string>src/scenes/kinect</string>
+						<string>src/scenes/logo</string>
+						<string>../../../addons/ofxBeat/src</string>
 						<string>../../../addons/ofxFX/src</string>
 						<string>../../../addons/ofxFX/src/composers</string>
 						<string>../../../addons/ofxFX/src/filters</string>
 						<string>../../../addons/ofxFX/src/generative</string>
 						<string>../../../addons/ofxFX/src/operations</string>
+						<string>../../../addons/ofxFboBlur/src</string>
 						<string>../../../addons/ofxFluid/src</string>
 						<string>../../../addons/ofxGui/src</string>
 						<string>../../../addons/ofxKinect/libs</string>
@@ -6245,7 +6735,15 @@ fi
 				<array>
 					<string>E4B69E200A3A1BDC003C02F2</string>
 					<string>E4B69E210A3A1BDC003C02F2</string>
+					<string>47CBF103A8EA6F0AF50DE9EC</string>
+					<string>16848967F0CDBAD1A617BE6B</string>
+					<string>9E85963B96FDD181D3F82231</string>
+					<string>E1FB42050AE77161ECA62DEC</string>
+					<string>CB80552BDC996341CF1C5D66</string>
+					<string>A86D7323CE1A9450906A91DD</string>
+					<string>C098DBE008A1B5C6D12ABFFD</string>
 					<string>5355E99D8BBC71222AA2B9FD</string>
+					<string>3800542E2A9FC9F9F4D07001</string>
 					<string>246908CC3F784104A474DBA6</string>
 					<string>856AA354D08AB4B323081444</string>
 					<string>5CBB2AB3A60F65431D7B555D</string>
@@ -6363,11 +6861,19 @@ fi
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>src/audio</string>
+						<string>src/particles</string>
+						<string>src/scenes</string>
+						<string>src/scenes/kinect</string>
+						<string>src/scenes/logo</string>
+						<string>../../../addons/ofxBeat/src</string>
 						<string>../../../addons/ofxFX/src</string>
 						<string>../../../addons/ofxFX/src/composers</string>
 						<string>../../../addons/ofxFX/src/filters</string>
 						<string>../../../addons/ofxFX/src/generative</string>
 						<string>../../../addons/ofxFX/src/operations</string>
+						<string>../../../addons/ofxFboBlur/src</string>
 						<string>../../../addons/ofxFluid/src</string>
 						<string>../../../addons/ofxGui/src</string>
 						<string>../../../addons/ofxKinect/libs</string>
@@ -6461,11 +6967,19 @@ fi
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>src/audio</string>
+						<string>src/particles</string>
+						<string>src/scenes</string>
+						<string>src/scenes/kinect</string>
+						<string>src/scenes/logo</string>
+						<string>../../../addons/ofxBeat/src</string>
 						<string>../../../addons/ofxFX/src</string>
 						<string>../../../addons/ofxFX/src/composers</string>
 						<string>../../../addons/ofxFX/src/filters</string>
 						<string>../../../addons/ofxFX/src/generative</string>
 						<string>../../../addons/ofxFX/src/operations</string>
+						<string>../../../addons/ofxFboBlur/src</string>
 						<string>../../../addons/ofxFluid/src</string>
 						<string>../../../addons/ofxGui/src</string>
 						<string>../../../addons/ofxKinect/libs</string>
@@ -6551,6 +7065,9 @@ fi
 					<string>E4B69E1D0A3A1BDC003C02F2</string>
 					<string>E4B69E1E0A3A1BDC003C02F2</string>
 					<string>E4B69E1F0A3A1BDC003C02F2</string>
+					<string>CBF1809FEEB7DDDC00AAEFE0</string>
+					<string>C865A92F04BD6A5EB82E5833</string>
+					<string>36BF1C038F5AEC4D85473FE4</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
