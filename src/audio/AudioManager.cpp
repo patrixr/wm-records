@@ -33,49 +33,47 @@ AudioManager::AudioManager() {
     isPlaying = false;
     smoothFactor = 0.9f;
     onBeat = false;
+#if USE_MIC == 1
+    fft.setup();
+    fft.setNormalize(true);
+    fft.setNumFFTBins(CHANNEL_COUNT);
+#endif
+    
 }
 
 void AudioManager::playFile(const char * file) {
+#if USE_MIC != 1
     player.load(file);
     player.setLoop(true);
     player.setVolume(0.2);
     player.play();
     isPlaying = player.isPlaying();
+#else
+    isPlaying = true;
+#endif
 }
 
 void AudioManager::update() {
     ofSoundUpdate();
-    beat.update(ofGetElapsedTimeMillis());
+    
+    fft.update();
     
     if (!isPlaying) {
         return;
     }
     
+#if USE_MIC != 1
     float *values = ofSoundGetSpectrum(CHANNEL_COUNT);
+    int count = CHANNEL_COUNT;
+    float scale = 1;
+#else
+    vector<float> values = fft.getSpectrum();
+    int count = values.size();
+    float scale = 0.2;
+#endif
     
-    beat.audioReceived(values, CHANNEL_COUNT * sizeof(float), CHANNEL_COUNT);
-    
-    if (beat.kick() == 1) {
-        if (!onBeat) {
-            onBeat = true;
-            //std::cout << "beat" << std::endl;
-        }
-    } else if (beat.kick() < 1) {
-        if (onBeat) {
-            onBeat = false;
-            //std::cout << "__" << std::endl;
-        }
-    }
-
-//    if (beat.snare())
-//        std::cout << "snare" << std::endl;
-//
-//    if (beat.hihat())
-//        std::cout << "hihat" << std::endl;
-
-    
-    for (int i = 0; i < CHANNEL_COUNT; ++i) {
-        float val = values[i];
+    for (int i = 0; i < count; ++i) {
+        float val = ofMap(values[i], 0, 1, 0, 1) * scale;
         fftSmooth[i] *= smoothFactor;
         if (fftSmooth[i] < val) {
             if (val > 0 && val < 0.1) {

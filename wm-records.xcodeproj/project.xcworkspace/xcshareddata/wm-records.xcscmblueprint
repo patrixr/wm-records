@@ -6,19 +6,21 @@
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "7C37DBD915DC970C445B9C7545F7D25E8DF3D2BD" : 9223372036854775807,
     "68F92DE0D3C5F0429A2E3F6CC7823A5BAFC1D9F8" : 9223372036854775807,
-    "A26D9057C9F375113536F69E960830B3C8E12985" : 9223372036854775807,
+    "84CE04532A76281E9D0C7B3A7EFCDC0E12CAC6FA" : 9223372036854775807,
     "B7CCA6A8C889ED4C803FBF307564FD139754E943" : 9223372036854775807,
     "E1973EE936B32FD6C1A9080FB86363F99151DFAC" : 9223372036854775807,
-    "2DE9C8846D9375EAACFABA8963120E8E7719BAF5" : 9223372036854775807
+    "2DE9C8846D9375EAACFABA8963120E8E7719BAF5" : 9223372036854775807,
+    "A26D9057C9F375113536F69E960830B3C8E12985" : 9223372036854775807
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F9DCFED2-B964-4B9B-A920-D248B9E50524",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BE7D28CD-D5BD-4B9A-ABAB-B9EB23A6FA00",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "7C37DBD915DC970C445B9C7545F7D25E8DF3D2BD" : "..\/..\/addons\/ofxFluid",
     "68F92DE0D3C5F0429A2E3F6CC7823A5BAFC1D9F8" : "wm-records\/",
-    "A26D9057C9F375113536F69E960830B3C8E12985" : "..\/..\/addons\/ofxFboBlur",
+    "84CE04532A76281E9D0C7B3A7EFCDC0E12CAC6FA" : "..\/..\/addons\/ofxFft",
     "B7CCA6A8C889ED4C803FBF307564FD139754E943" : "..\/..\/addons\/ofxFX",
     "E1973EE936B32FD6C1A9080FB86363F99151DFAC" : "..\/..\/addons\/ofxBeat",
-    "2DE9C8846D9375EAACFABA8963120E8E7719BAF5" : "..\/.."
+    "2DE9C8846D9375EAACFABA8963120E8E7719BAF5" : "..\/..",
+    "A26D9057C9F375113536F69E960830B3C8E12985" : "..\/..\/addons\/ofxFboBlur"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "wm-records",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -38,6 +40,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/patriciogonzalezvivo\/ofxFluid",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7C37DBD915DC970C445B9C7545F7D25E8DF3D2BD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kylemcdonald\/ofxFft",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "84CE04532A76281E9D0C7B3A7EFCDC0E12CAC6FA"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/armadillu\/ofxFboBlur",

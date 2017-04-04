@@ -10,9 +10,11 @@
 #define audioManager_hpp
 
 #define CHANNEL_COUNT 256
+#define USE_MIC 1
 
 #include "ofMain.h"
 #include "ofxBeat.h"
+#include "ofxProcessFFT.h"
 
 class AudioManager {
     
@@ -32,11 +34,17 @@ private:
     AudioManager();
     static AudioManager *instance;
     
-    ofSoundPlayer   player;
+    #if USE_MIC == 1
+        ProcessFFT fft;
+    #else
+        ofSoundPlayer   player;
+    #endif
+    
     ofxBeat         beat;
     float*          fftSmooth;
     bool            isPlaying;
     float           smoothFactor;
+    
 };
 
 #endif /* audioManager_hpp */
