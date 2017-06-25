@@ -50,6 +50,7 @@ void KinectScene::setup(){
     kinect.setCameraTiltAngle(angle);
     
     frameCount = 0;
+    offset = 0;
     
     // -----------------------------
     // Background config
@@ -109,8 +110,15 @@ void KinectScene::draw(){
     stringstream reportStream;
     
     frameCount++;
-    if (frameCount > 10000)
+    if (frameCount >= 4) {
+        offset++;
         frameCount = 0;
+        std::cout << offset << std::endl;
+        
+        if (offset == ofGetHeight()) {
+            offset = 0;
+        }
+    }
 }
 
 
@@ -128,8 +136,14 @@ void KinectScene::drawPointCloud(){
     ofTranslate(0, 0, -1000); // center the points a bit
 
     float *channels = audioManager->getChannels();
+    float max = audioManager->getMax();
+    float maxSize = max *  12 > 6 ? 6 : max * 12 ;
     
-    int step = fps < 30 ? 4 : 3;
+    if (maxSize < 1.5) {
+        maxSize = 1.5;		
+    }
+    
+    int step = fps < 30 ? 5 : 4;
     int i    = 0;
     for(int y = 0; y < h; y += step) {
         for(int x = 0; x < w; x += step) {
@@ -141,15 +155,19 @@ void KinectScene::drawPointCloud(){
                     continue;
                 }
                 
-                float val = channels[((y + frameCount) * x) % CHANNEL_COUNT];
+                float val = channels[(y * x) % CHANNEL_COUNT];
 
-                ofColor color = ofColor(130 + val * 125);
-                ofSetColor(color);
+                //ofColor color = ofColor(200 + val * 55);
+            //stdd:cout << 55 + val * 200 <<std::endl;
+                if (val > 1) {
+                    val = 1;
+                }
+                ofSetColor(55 + 1 * 200);
                 
                 if (fps > 35)
-                    ofDrawSphere(vect.x, vect.y, vect.z, 0.2 + val * ofRandomf() * 20);
+                    ofDrawSphere(vect.x, vect.y, vect.z, (val * maxSize) / max);
                 else
-                    ofDrawBox(vect.x, vect.y, vect.z, 0.2 + val * ofRandomf() * 20);
+                    ofDrawBox(vect.x, vect.y, vect.z, (val * maxSize) / max);
 
                 i++;
             }

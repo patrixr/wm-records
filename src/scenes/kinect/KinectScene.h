@@ -47,6 +47,7 @@ private:
     
     int angle;
     int frameCount;
+    int offset;
     
     // used for viewing the point cloud
     ofEasyCam easyCam;

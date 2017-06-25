@@ -56,8 +56,6 @@ void AudioManager::playFile(const char * file) {
 void AudioManager::update() {
     ofSoundUpdate();
     
-    fft.update();
-    
     if (!isPlaying) {
         return;
     }
@@ -67,17 +65,21 @@ void AudioManager::update() {
     int count = CHANNEL_COUNT;
     float scale = 1;
 #else
+    fft.update();
     vector<float> values = fft.getSpectrum();
     int count = values.size();
-    float scale = 0.2;
+    float scale = 0.5;
 #endif
     
     for (int i = 0; i < count; ++i) {
         float val = ofMap(values[i], 0, 1, 0, 1) * scale;
+        //std::cout << values[i] << '/' << val << std::endl;
         fftSmooth[i] *= smoothFactor;
         if (fftSmooth[i] < val) {
             if (val > 0 && val < 0.1) {
                 fftSmooth[i] = 0.1;
+            } else if (val > 1) {
+                fftSmooth[i] = 1;
             } else {
                 fftSmooth[i] = val;
             }
